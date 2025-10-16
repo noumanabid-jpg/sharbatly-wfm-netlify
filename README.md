@@ -1,22 +1,12 @@
-# Sharbatly CS Roster Planner (Netlify)
+# Sharbatly CS WFM (Vite + React + TypeScript)
 
-A lightweight React (Vite) app that visualizes CS staffing coverage vs. demand and lets you export/import CSVs.
-
-## Local dev
+## Quick start
 ```bash
-npm i
+npm install
 npm run dev
 ```
-Open the URL shown (usually http://localhost:5173).
 
-## Build
-```bash
-npm run build
-npm run preview
-```
+This repo includes minimal UI primitives under `src/components/ui/*` so you don't need external UI libs. Icons (lucide-react) and charts (recharts) are included.
 
-## Deploy on Netlify
-- New site from Git > pick your GitHub repo
-- Build command: `npm run build`
-- Publish directory: `dist`
-- (No env vars required)
+### Replace App.tsx
+Paste your latest `App.tsx` (from ChatGPT canvas) into `src/App.tsx` replacing the placeholder.
